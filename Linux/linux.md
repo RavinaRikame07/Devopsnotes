@@ -370,6 +370,8 @@ o	grep -n "pattern" file.txt: Show line numbers with matched lines
 o	grep -w "word" file.txt: Search for whole words only
 5.	Invert Match:
 o	grep -v "pattern" file.txt: Show lines that do not match the pattern
+
+
 find Command
 find is used for searching files and directories in a directory hierarchy.
 1.	Basic Usage:
@@ -383,6 +385,8 @@ o	find /path -size +100M: Search for files larger than 100MB
 o	find /path -mtime -7: Search for files modified in the last 7 days
 5.	Execute Command on Found Files:
 o	find /path -name "filename" -exec rm {} \;: Delete files found
+
+
 sed Command
 sed (Stream Editor) is used to perform basic text transformations on an input stream (a file or input from a pipeline).
 1.	Basic Replacement:
