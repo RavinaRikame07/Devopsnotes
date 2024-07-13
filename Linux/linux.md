@@ -1,6 +1,7 @@
 Linux Basic
 1.what is linux in short.
 Linux® is an open source operating system (OS). An operating system is the software that directly manages a system's hardware and resources, like CPU, memory, and storage. The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
+
 Linux is an open-source operating system based on Unix. It is widely used for its stability, security, and flexibility. Linux powers many servers, desktops, and embedded systems, and comes in various distributions like Ubuntu, Fedora, and CentOS. It's favored in DevOps for its compatibility with many tools and platforms.
 Features:
 Linux is renowned for its robust features that cater to the demands of cloud computing and DevOps:Linux is renowned for its robust features that cater to the demands of cloud computing and DevOps:
@@ -28,13 +29,15 @@ Types:
 1.Monolithic Kernel
 2. Micro kernel:
 3. Exokernel:
-4. Hybrid kernel:
+4. Hybrid kernel
+
 2. System Library:
 System libraries are some predefined functions by using which any application programs or system utilities can access kernel’s features. These libraries are the foundation upon which any software can be built.
 1.	GNU C library: This is the C library that provides the most fundamental system for the interface and execution of C programs. This provides may in-built functions for the execution.
 2.	libpthread (POSIX Threads): This library plays important role for multithreading in Linux, it allows users for creating and managing multiple threads.
 3.	libdl (Dynamic Linker): This library is responsible for the loading and linking file at the runtime.
 4.	libm (Math Library): This library provides user with all kind of mathematical function and their execution.
+
 3. Shell:
 Shell can be determined as the interface to the kernel, which hides the internal execution of functions of kernel from the user. Users can just enter the commend and using the kernel’s function that specific task is performed accordingly.
 Different types of shell:
@@ -44,9 +47,9 @@ Executes the command provided by user given in the form command. A special progr
 Executes the process provided by user in graphical way and output is displayed in the graphical window.
  
 Linux shell
-4. Hardware Layer:
+ Hardware Layer:
 Hardware layer of Linux is the lowest level of operating system track. It is plays a vital role in managing all the hardware components. It includes device drivers, kernel functions, memory management, CPU control, and I/O operations. This layer generalizes hard complexity, by providing an interface for software by assuring proper functionality of all the components.
-5. System utility:
+ System utility:
 System utilities are the commend line tools that preforms various tasks provided by user to make system management and administration better. These utilities enables user to perform different tasks, such as file management, system monitoring, network configuration, user management etc.
 
 5.Flavour of linux 
@@ -70,6 +73,8 @@ System utilities are the commend line tools that preforms various tasks provided
 •	Base: Debian
 •	Target Users: Security professionals, ethical hackers
 •	Key Features: Pre-installed security tools, penetration testing, forensics
+
+
 6. role of linux in devops
 The Role of Linux in DevOps
 Linux speaks out a large role in DevOps (Development and Operations) ideology which aims to mend the gaps of the software developers and IT administrators. Here are some key points about the role of Linux in DevOps:Here are some key points about the role of Linux in DevOps:
@@ -93,6 +98,7 @@ Examples:
 •	ls *.sh --> list all the files having .sh extension.
 •	ls -i  --> list the files and directories with index numbers inodes
 •	ls -d */ --> list only directories.(we can also specify a pattern)
+
 Directoy commands
 •	pwd --> print work directory. Gives the present working directory.
 •	cd path_to_directory --> change directory to the provided path
@@ -125,6 +131,7 @@ What is Shell?
 A shell is a special user program that provides an interface for users to interact with operating system services. It accepts human-readable commands from users and converts them into instructions that the kernel can understand. The shell is a command language interpreter that executes commands read from input devices such as keyboards or from files. It starts when the user logs in or opens a terminal.
 What is Linux Shell Scripting?
 Linux shell scripting involves writing programs (scripts) that can be run by a Linux shell, such as bash (Bourne Again Shell). These scripts automate tasks, perform system administration tasks, and facilitate the interaction between users and the operating system.
+
 Task:
 •	Explain in your own words and with examples what Shell Scripting means for DevOps.
 shell scripting is a way to automate tasks in Unix-like operating systems using a series of commands written in a file, known as a script. In DevOps, shell scripts are used for automating repetitive tasks, managing system configurations, deploying applications, and more.
@@ -196,14 +203,6 @@ Key Concepts:
 
 
 
-
-* * * * * command_to_execute
-| | | | |
-| | | | +---- Day of the week (0 - 7) (Sunday is 0 or 7)
-| | | +------ Month (1 - 12)
-| | +-------- Day of the month (1 - 31)
-| +---------- Hour (0 - 23)
-+------------ Minute (0 - 59)
 Understanding File Permissions:
 •	Basic Permissions
 o	Permissions in Linux are represented by a three-digit number, where each digit represents a different set of users: owner, group, and others.
@@ -213,6 +212,7 @@ o	Effective Permission for Directories: 755
 o	Lowest Permission: 000 (not recommended)
 o	Minimum Effective Permission for Files: 644 (default umask value of 022)
 o	Default Directory Permission: Includes execute permission for navigation
+
 •	Categories of Users
 o	Each of the three permissions are assigned to three defined categories of users:
 o	Owner: The owner of the file or application.
@@ -403,4 +403,3 @@ o	sed '2i\New line of text' file.txt: Insert text before the second line
 
 
 
-ravina
