@@ -3,32 +3,48 @@ Linux Basic
 Linux® is an open source operating system (OS). An operating system is the software that directly manages a system's hardware and resources, like CPU, memory, and storage. The OS sits between applications and hardware and makes the connections between all of your software and the physical resources that do the work.
 
 Linux is an open-source operating system based on Unix. It is widely used for its stability, security, and flexibility. Linux powers many servers, desktops, and embedded systems, and comes in various distributions like Ubuntu, Fedora, and CentOS. It's favored in DevOps for its compatibility with many tools and platforms.
+
 Features:
+
 Linux is renowned for its robust features that cater to the demands of cloud computing and DevOps:Linux is renowned for its robust features that cater to the demands of cloud computing and DevOps:
+
 •	Open-source: Linux’s opens source character allows for the formulation of the community’s development, the co-operation and frequent betterments.
+
 •	Modularity: Modular design of Linux posits users to rebuild the operating system troops o hert needs, avoiding unnecessary overhead and saving energy.
+
 •	Security: Since linux itself carries in its armor the security attributes like access controls and sandboxing, your critical operations are quite safe with it.
+
 •	Compatibility: Linux lives off the fact that it supports diverse hardware and software eliminating compatibility problems with the legacy environment.
 
-2. The history of linux
+
+2. The history of linux.
+
 Linux, created by Linus Torvalds in 1991, is an open-source operating system inspired by Unix. Initially a personal project, it was released under the GNU General Public License, allowing free use and modification. It quickly gained popularity, leading to the development of various distributions like Red Hat and Ubuntu. By the 2000s, Linux became a staple in server environments and later in cloud computing and DevOps. Today, it powers a wide range of devices from smartphones to supercomputers.
 
 
 3.why linux?
+
 •  Open Source: It's free to use, modify, and distribute, promoting innovation and collaboration.
+
 •  Security: Its architecture and regular updates make it highly secure.
+
 •  Stability: Known for its robustness and reliability, especially in server environments.
+
 •  Flexibility: Highly customizable and adaptable to various uses, from desktops to embedded systems.
+
 •  Community Support: A vast community of developers and users contributes to its continuous improvement and provides extensive support.
 
 
-4. The linux Architecture
+4. The linux Architecture.
+
 Components of Linux:
+
 Like any operating system, Linux consists of software, computer programs, documentation, and hardware.
 The main components of Linux operating system are: Application, Shell, Kernel, Hardware, Utilities
  
 1. Kernel:
 Kernel is the main core component if Linux, it controls the activity of other hardware components. It visualizes the common hardware resources and provide each process with necessary virtual resources. It makes the process to wait in the ready queue and execute in consequently to avoid any kind of conflict.
+
 Types:
 -Monolithic Kernel
 -Micro kernel:
@@ -53,6 +69,7 @@ Different types of shell:
 
 1. Command Line shell:
 Executes the command provided by user given in the form command. A special program called terminal in executed and the result is displayed in the terminal itself.
+
 2. Graphical User Interface:
 Executes the process provided by user in graphical way and output is displayed in the graphical window.
  
@@ -66,33 +83,48 @@ System utilities are the commend line tools that preforms various tasks provided
 
 5.Flavour of linux 
 •  Ubuntu
+
 •	Base: Debian
+
 •	Target Users: Beginners, general users
+
 •	Key Features: User-friendly, strong community support, regular updates
 
 •  Fedora
+
 •	Base: Red Hat
+
 •	Target Users: Developers, cutting-edge users
+
 •	Key Features: Latest software, upstream development, strong focus on innovation
 
 •  CentOS
+
 •	Base: Red Hat Enterprise Linux (RHEL)
+
 •	Target Users: Servers, enterprise users
+
 •	Key Features: Stability, long-term support, community-driven
 
 •  Debian
+
 •	Base: Independent
+
 •	Target Users: Advanced users, servers
+
 •	Key Features: Stability, extensive software repositories, strong community
 
 •  Kali Linux
+
 •	Base: Debian
+
 •	Target Users: Security professionals, ethical hackers
+
 •	Key Features: Pre-installed security tools, penetration testing, forensics
 
 
-6. role of linux in devops
-The Role of Linux in DevOps
+6. The Role of Linux in DevOps.
+
 Linux speaks out a large role in DevOps (Development and Operations) ideology which aims to mend the gaps of the software developers and IT administrators. Here are some key points about the role of Linux in DevOps:Here are some key points about the role of Linux in DevOps:
 
 •	Containerization: The bottom-line for containerize solutions like Docker and Kubernetes which are the most used in DevOps for the application packaging, deployment, and management lies in the fact that there are based on Linux.
@@ -105,7 +137,7 @@ Linux speaks out a large role in DevOps (Development and Operations) ideology wh
 
 •	Scripting and Automation: One the areas where linux excels is its command-line interface and scripting capabilities (e.g., Bash Python). These make automating of various tasks and processes like DevOps practices easy.
 
- 7. The Role of Linux in Cloud Computing
+7. The Role of Linux in Cloud Computing
 Linux is the main contributor in the modern cloud via using Linux based infrastructures for creating many cloud platforms and services Here are some key points about the role of Linux in cloud computing:The following are important themes concerning the Linux in Cloud Computing: Browse through our curated collection of mind-provoking questions to expand your understanding of familiar topics and broaden your intellectual horizons.
 
 •	Virtualization: Linux is a great choice to use as an operating system for VMs which are required in cloud environments for both creating and managing them.
@@ -119,6 +151,7 @@ Linux is the main contributor in the modern cloud via using Linux based infrastr
 •	Open-Source Ecosystem: The Linux open source architecture and the ability to customize the operating system and tools with many cloud service providers and developers roles, that Linux provides an environment for its integration with various varieties.
 
 Examples:
+
 •	ls -l--> list the files and directories in long list format with extra information
 
 •	ls -a --> list all including hidden files and directory
@@ -131,6 +164,7 @@ Examples:
 
 
 Directoy commands
+
 •	pwd --> print work directory. Gives the present working directory.
 
 •	cd path_to_directory --> change directory to the provided path
@@ -147,6 +181,7 @@ Directoy commands
 
 
 Examples:
+
 mkdir newFolder              # make a new folder 'newFolder'
 
 mkdir .NewFolder              # make a hidden directory (also . before a file to make it hidden)
@@ -161,18 +196,23 @@ mkdir -p  A/B/C/D              # make a nested directory
 
 
 SHELL SCRIPTING
+
 What is Kernel?
+
 The kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system.
 
 What is Shell?
+
 A shell is a special user program that provides an interface for users to interact with operating system services. It accepts human-readable commands from users and converts them into instructions that the kernel can understand. The shell is a command language interpreter that executes commands read from input devices such as keyboards or from files. It starts when the user logs in or opens a terminal.
 
 What is Linux Shell Scripting?
+
 Linux shell scripting involves writing programs (scripts) that can be run by a Linux shell, such as bash (Bourne Again Shell). These scripts automate tasks, perform system administration tasks, and facilitate the interaction between users and the operating system.
 
 Task:
 
 •	Explain in your own words and with examples what Shell Scripting means for DevOps.
+
 shell scripting is a way to automate tasks in Unix-like operating systems using a series of commands written in a file, known as a script. In DevOps, shell scripts are used for automating repetitive tasks, managing system configurations, deploying applications, and more.
 
 Example:
@@ -183,20 +223,24 @@ Example:
 
 •	Monitoring system performance
 
-What is #!/bin/bash? Can we write #!/bin/sh as well?
+-What is #!/bin/bash? Can we write #!/bin/sh as well?
+
 The #!/bin/bash at the beginning of a shell script is called a shebang. It specifies the path to the interpreter that should execute the script.
 
 1.#!/bin/bash tells the system to use the Bash shell to run the script.
 
 2.#!/bin/sh tells the system to use the Bourne shell.
+
 Both can be used, but bash (Bourne Again Shell) has more features compared to the original sh.
 
 
 •	Write a Shell Script that prints I will complete #90DaysOfDevOps challenge.
 #!/bin/bash
+
 echo "I will complete #90DaysOfDevOps challenge"
 
 •	Write a Shell Script that takes user input, input from arguments, and prints the variables.
+
 #!/bin/bash
 # Take user input
 echo "Enter your name:"
@@ -226,16 +270,23 @@ Backup in shell scripting involves creating copies of files or directories to pr
 Key Concepts:
 
 1.	Backup Types:
+
 o	Full Backup: Complete copy of all specified data.
+
 o	Incremental Backup: Copies only data that has changed since the last backup.
+
 o	Differential Backup: Copies data that has changed since the last full backup.
 
 2.	Backup Location:
+
 o	Local Backup: Stored on the same system or network.
+
 o	Remote Backup: Stored on a different system, often using SSH or FTP.
 
 3.	Scheduling Backups:
+
 o	Use cron jobs to schedule regular backups.
+
 o	Example: 0 2 * * * /path/to/backup-script.sh (runs daily at 2 AM)
 
 Key Commands:
@@ -258,6 +309,7 @@ Best Practices:
 Cron and Crontab for Automating Backup. 
 
 Cron is a time-based job scheduler in Unix-like operating systems. It allows users to schedule scripts or commands to run automatically at specified intervals.
+
 Crontab is a file that contains a list of cron jobs, and it also refers to the command used to edit this file.
 
 Key Concepts:
@@ -313,7 +365,8 @@ o	Sticky Bit: Used on folders to avoid deletion of a folder and its contents by 
 What is a Package Manager in Linux?
 
 In simpler words, a package manager is a tool that allows users to install, remove, upgrade, configure, and manage software packages on an operating system. The package manager can be a graphical application like a software center or a command line tool like apt-get or pacman.
-You’ll often find me using the term ‘package’ in tutorials and articles. To understand a package manager, you must understand what a package is.
+
+
 
 What is a Package?
 
@@ -366,69 +419,96 @@ o	touch newfile.txt
 File Viewing and Editing:
 
 1.	cat: Concatenate and display file content
+
 o	cat file.txt
 
 2.	less: View file content one page at a time
+
 o	less file.txt
 
 3.	head: Display the first part of a file
+
 o	head file.txt
+
 o	head -n 10 file.txt (first 10 lines)
 
 4.	tail: Display the last part of a file
+
 o	tail file.txt
+
 o	tail -n 10 file.txt (last 10 lines)
+
 o	tail -f file.txt (follow file, useful for logs)
 
 5.	nano / vim / gedit: Text editors
+
 o	nano file.txt
+
 o	vim file.txt
+
 o	gedit file.txt (for graphical environment)
 
 System Monitoring and Management:
 
 1.	top: Display system processes and resource usage
+
 o	top
 
 2.	htop: Interactive process viewer (requires installation)
+
 o	htop
 
 3.	ps: Report a snapshot of current processes
+
 o	ps aux
 
 4.	kill: Terminate a process
+
 o	kill PID
+
 o	kill -9 PID (force kill)
 
 5.	df: Report file system disk space usage
+
 o	df -h
 
 6.	du: Estimate file space usage
+
 o	du -h
+
 o	du -sh directory/
 
 7.	free: Display memory usage
+
 o	free -h
 
 8.	uptime: Tell how long the system has been running
+
 o	uptime
 
 9.	uname: Print system information
+
 o	uname -a
 
 Networking:
 
 1.	ping: Send ICMP ECHO_REQUEST to network hosts
+
 o	ping example.com
 
 2.	ifconfig / ip: Configure network interfaces
+
 o	ifconfig
+
 o	ip addr show
 
 3.	netstat: Network statistics
+
 o	netstat -tuln
 
 4.	curl: Transfer data from or to a server
+
+
 o	curl http://example.com
 
 5.	wget: Download files from the web
@@ -437,26 +517,35 @@ o	wget http://example.com/file.tar.gz
 File Permissions and Ownership:
 
 1.	chmod: Change file modes or Access Control Lists
+
 o	chmod 755 file.sh
+
 o	chmod u+x file.sh (add execute permission for the user)
 
 2.	chown: Change file owner and group
+
 o	chown user:group file.txt
 
 Searching and Filtering:
 
 1.	grep: Print lines matching a pattern
+
 o	grep "pattern" file.txt
+
 o	grep -r "pattern" directory/
 
 2.	find: Search for files in a directory hierarchy
+
 o	find /path -name "filename"
+
 o	find /path -type d -name "directoryname"
 
 3.	awk: Pattern scanning and processing language
+
 o	awk '{print $1}' file.txt (print first column)
 
 4.	sed: Stream editor for filtering and transforming text
+
 o	sed 's/old/new/g' file.txt (replace all occurrences of 'old' with 'new')
 
 System Ctl:
